@@ -1,0 +1,52 @@
+name: sds320_v2
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  
+  # Notebook environment
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # Core Geospatial stack (Let Conda handle the C-dependencies)
+  - gdal
+  - proj
+  - pyproj
+  - rasterio
+  - rioxarray
+  - xarray
+  - geopandas
+  - shapely
+  - fiona
+  - pyogrio
+
+  # General scientific Python
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scikit-image
+  - tqdm
+  - requests
+
+  # Cloud/data access
+  - boto3
+  - s3fs
+  - awscli
+  - pystac-client
+  - planetary-computer
+
+  # Use Pip for the GeoAI and specific rendering tools
+  - pip:
+    - geoai-py
+    - torch
+    - torchgeo
+    - torchvision
+    - segment-geospatial
+    - folium
+    - leafmap
+    - localtileserver
+    - quackosm
