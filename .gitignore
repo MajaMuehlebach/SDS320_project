@@ -3,7 +3,4 @@
 .env.*
 
 # Raw geospatial raster and vector data
-/data/raw/
-
-# extracted geospatial raster and vector data
-/notebooks/data/vexcel/
+/data/raw/*
