@@ -4,3 +4,6 @@
 
 # Raw geospatial raster and vector data
 /data/raw/*
+
+# Downloaded data in notebooks folder
+/notebooks/data/*
