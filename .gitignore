@@ -5,5 +5,8 @@
 # Raw geospatial raster and vector data
 /data/raw/*
 
+# Processed geospatial raster and vector data
+/data/processed/*
+
 # Downloaded data in notebooks folder
 /notebooks/data/*
