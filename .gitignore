@@ -10,3 +10,6 @@
 
 # Downloaded data in notebooks folder
 /notebooks/data/*
+
+# Course notebooks
+/notebooks/course/*
