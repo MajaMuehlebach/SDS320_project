@@ -8,6 +8,9 @@
 # Processed geospatial raster and vector data
 /data/processed/*
 
+# Training data 
+/data/training/*
+
 # Downloaded data in notebooks folder
 /notebooks/data/*
 
